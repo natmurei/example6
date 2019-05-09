@@ -33,5 +33,13 @@ def duplicate():
 	s=['a','b','a','e','d','b','c','e','f','g','h']
 	print(s.sort())
 
+def student():
+    student1= {'age': 19, 'name': 'joy'}
+    student2= {'age': 20, 'name': 'conny'}
+    student3= {'age': 15, 'name': 'nasambu'}
+    student4= {'age': 18, 'name': 'Natasha'}
+    Students=[student1,student2,student3,student4]
+    for student in Students:
+    	print("Hello {} your were born {}.".format(student["name"],student['age']))
 
-	
+			
